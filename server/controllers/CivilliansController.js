@@ -4,5 +4,5 @@ var Civillains = require('../models/Civillains');
 
 router.get('/', function(req, res){
 	console.log('hi');
-	res.render("success");
+	res.render(req.body);
 })
