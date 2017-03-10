@@ -1,10 +1,10 @@
 var mongoose = require('mongoose');
 
-var VillainSchema = new mongoose.Schema({
+var CivillainSchema = new mongoose.Schema({
 	name: String,
-	height: Number
+	
 });
 
-var CivillainModel = mongoose.model('Civillain', CivilainSchema);
+var CivillainModel = mongoose.model('Civillain', CivillainSchema);
 
 module.exports = CivillainModel;
